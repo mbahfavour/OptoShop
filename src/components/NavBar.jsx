@@ -5,8 +5,8 @@ import { Badge } from '@material-ui/core';
 
 const Container = styled.div`
    height: 60px;
-   background-color: #947a74;
-   color: white;
+   background-color: white;
+   color: black;
 
 `
 const Wrapper = styled.div`
@@ -43,7 +43,7 @@ const Input = styled.input`
     border-right-style: hidden;
     border-left-style: hidden;
     border-bottom-style: hidden;
-    background-color: #947a74;
+    background-color: white;
     :focus {
         outline: none;
     }
@@ -96,7 +96,7 @@ const NavBar = () => {
                        Sign In
                    </MenuLink>
                    <MenuLink>
-                   <Badge badgeContent={8} color="primary">
+                   <Badge badgeContent={2} color="primary">
                        <ShoppingCartOutlined />
                    </Badge>
                    </MenuLink>
